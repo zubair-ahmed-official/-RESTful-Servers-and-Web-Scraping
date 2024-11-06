@@ -1,0 +1,89 @@
+/* styles.css */
+
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Main heading styles */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+/* Race list container */
+#racesList {
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+/* Individual race entry styling */
+#racesList div {
+    background: #fff;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Button styles */
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Race details section */
+#raceDetails {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Title styling */
+#raceTitle {
+    color: #2c3e50;
+}
+
+/* Leaderboard and lap times */
+#leaderboard, #lapTimes {
+    margin: 10px 0;
+    padding: 10px;
+    background: #ecf0f1;
+    border-radius: 5px;
+}
+
+/* Lap times display */
+#lapTimes div {
+    margin-bottom: 5px;
+}
+
+/* Responsive styling */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    button {
+        width: 100%;
+        margin-top: 10px;
+    }
+}

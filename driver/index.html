@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Driver Management</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <h1>Driver Management</h1>
+    <input type="text" id="baseUrl" placeholder="Enter Team REST Service Base URL" />
+    <button id="loadDrivers">Load Drivers</button>
+
+    <div id="driversList"></div>
+
+    <h2>Add Driver</h2>
+    
+    <!-- Error message container -->
+    <div id="errorMessages" style="color: red;"></div> <!-- Placeholder for error messages -->
+
+    <input type="text" id="driverNumber" placeholder="Driver Number" />
+    <input type="text" id="driverName" placeholder="Driver Name" />
+    <input type="text" id="driverShortName" placeholder="Driver Short Name" />
+    <input type="number" id="skillRace" placeholder="Skill Race (0-100)" min="0" max="100" />
+    <input type="number" id="skillStreet" placeholder="Skill Street (0-100)" min="0" max="100" />
+    <button id="addDriver">Add Driver</button>
+
+    <script src="script.js"></script>
+</body>
+</html>

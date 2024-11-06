@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Management</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Car Management</h1>
+    <input type="text" id="baseUrl" placeholder="Enter Team REST Service Base URL" />
+    <button id="loadCars">Load Cars</button>
+
+    <div id="errorMessages"></div>
+
+    <h2>Cars List</h2>
+    <div id="carsList"></div>
+
+   <h2>Add Car</h2>
+<input type="number" id="driverNumber" placeholder="Driver Number" min="1" />
+<input type="number" id="suitabilityRace" placeholder="Suitability Race (0-100)" min="0" max="100" />
+<input type="number" id="suitabilityStreet" placeholder="Suitability Street (0-100)" min="0" max="100" />
+<input type="number" id="reliability" placeholder="Reliability (0-100)" min="0" max="100" />
+<button id="addCar">Add Car</button>
+
+    <script src="script.js"></script>
+</body>
+</html>

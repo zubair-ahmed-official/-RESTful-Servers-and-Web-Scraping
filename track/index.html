@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Track Management</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Track Management</h1>
+
+    <button id="scrapeTracks">Scrape Tracks</button>
+
+    <h2>Scraped Tracks</h2>
+    <div id="scrapedTracksList"></div>
+
+    <h2>Add New Track</h2>
+   <input type="text" id="newTrackName" placeholder="Track Name" />
+<input type="number" id="newTrackLaps" placeholder="Number of Laps" min="1" />
+<input type="number" id="newTrackBaseLapTime" placeholder="Fastest Lap Time (seconds)" min="0" />
+<input type="text" id="newTrackType" placeholder="newTrackType" min="0" />
+    
+    <button id="addTrack">Add Track</button>
+
+    <h2>Existing Tracks</h2>
+    <div id="tracksList"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
